@@ -18,7 +18,7 @@
                                 <x-error for="name" ></x-error>
                             </div>
                             
-                            <button type="submit" class="btn btn-outline-light">save <x-spinner for="store" /></button>
+                            <button type="submit" class="btn btn-outline-success">save <x-spinner for="store" /></button>
                         </form>
 
                     </x-modal>

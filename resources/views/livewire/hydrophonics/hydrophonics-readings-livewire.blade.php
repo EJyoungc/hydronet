@@ -18,7 +18,7 @@
                     <x-modal title="Add Photos" :status="$modal2">
                         <div class="d-flex py-2">
                             <div class="form-group">
-                                <button class="btn btn-outline-light" onclick="document.getElementById('photo').click()">upload
+                                <button class="btn btn-outline-success" onclick="document.getElementById('photo').click()">upload
                                     <x-spinner for="image" /></button>
                                 <input type="file" multiple wire:model.blur="image" id="photo" class="d-none">
                                 <x-error for="image"></x-error>
@@ -100,7 +100,7 @@
                                 <x-error for="notes"></x-error>
                             </div>
 
-                            <button type="submit" class="btn btn-outline-light">save <x-spinner for="store" /></button>
+                            <button type="submit" class="btn btn-outline-success">save <x-spinner for="store" /></button>
                         </form>
 
                     </x-modal>

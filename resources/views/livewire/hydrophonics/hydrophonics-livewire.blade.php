@@ -42,7 +42,7 @@
                                         <x-error for="date"></x-error>
                                     </div>
 
-                                    <button type="submit" class="btn btn-dark">save <x-spinner
+                                    <button type="submit" class="btn btn-outline-success">save <x-spinner
                                             for="store_session" /></button>
                                 </form>
 

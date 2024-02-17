@@ -6,6 +6,7 @@ use App\Models\GrowthSession;
 use App\Models\Hydrophonic;
 use App\Models\ReadingPhoto;
 use App\Models\Readings;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
 use Jantinnerezo\LivewireAlert\LivewireAlert;
 use Livewire\Component;
@@ -98,7 +99,7 @@ class HydrophonicsReadingsLivewire extends Component
                 'ppm' => $this->ppm,
                 'ph' => $this->ph,
                 'notes' => $this->notes,
-                'user_id'=>$this->Auth::user()->id,
+                'user_id'=>Auth::user()->id,
                 'hydrophonic_id' => $this->hydrophonic_id->id,
                 'growth_session_id' => $this->session_id->id,
             ]);
@@ -120,7 +121,7 @@ class HydrophonicsReadingsLivewire extends Component
                 'ppm' => $this->ppm,
                 'ph' => $this->ph,
                 'notes' => $this->notes,
-                'user_id'=>$this->Auth::user()->id,
+                'user_id'=>Auth::user()->id,
 
                 // 'hydrophonic_id' => $this->hydrophonic_id->id,
                 // 'growth_session_id' => $this->session_id->id,

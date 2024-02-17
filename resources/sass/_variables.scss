@@ -1,0 +1,83 @@
+// Body
+// $body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+
+
+/* SCSS HEX */
+$lapis-lazuli: #22577aff;
+$verdigris: #38a3a5ff;
+$emerald: #57cc99ff;
+$light-green: #80ed99ff;
+$tea-green: #c7f9ccff;
+
+
+
+
+$rich-black: hsla(206, 57%, 12%, 1);
+
+// $secondary :$lapis-lazuli;
+/* SCSS HSL */
+$lapis-lazuli: hsla(204, 56%, 31%, 1);
+$verdigris: hsla(181, 49%, 43%, 1);
+$emerald: hsla(154, 53%, 57%, 1);
+$light-green: hsla(134, 75%, 72%, 1);
+$tea-green: hsla(126, 81%, 88%, 1);
+
+/* SCSS RGB */
+$lapis-lazuli: rgba(34, 87, 122, 1);
+$verdigris: rgba(56, 163, 165, 1);
+$emerald: rgba(87, 204, 153, 1);
+$light-green: rgba(128, 237, 153, 1);
+$tea-green: rgba(199, 249, 204, 1);
+
+
+.text-purple{
+    color:purple;
+}
+
+
+.brown-green{
+
+    background-image: linear-gradient(to top, #000,#1fae6b);
+    // background-image: linear-gradient(to top, #000,#198754,#1fae6b);
+    color:transparent;
+    --webkit-background-clip:text;
+    background-clip: text;
+}
+
+.image-container {
+    /* Ensure the container expands to contain its children */
+    display: flex;
+    align-items: center; /* Align images vertically */
+    justify-content: center; /* Align images horizontally */
+    overflow: hidden; /* Hide overflow if images are larger than the container */
+}
+
+.image-container img {
+    /* Make images fill the container */
+    width: 100%;
+    height: auto; /* Allow images to maintain their aspect ratio */
+}
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #22577aff, #38a3a5ff, #57cc99ff, #80ed99ff, #c7f9ccff);
+$gradient-right: linear-gradient(90deg, #22577aff, #38a3a5ff, #57cc99ff, #80ed99ff, #c7f9ccff);
+$gradient-bottom: linear-gradient(180deg, #22577aff, #38a3a5ff, #57cc99ff, #80ed99ff, #c7f9ccff);
+$gradient-left: linear-gradient(270deg, #22577aff, #38a3a5ff, #57cc99ff, #80ed99ff, #c7f9ccff);
+$gradient-top-right: linear-gradient(45deg, #22577aff, #38a3a5ff, #57cc99ff, #80ed99ff, #c7f9ccff);
+$gradient-bottom-right: linear-gradient(135deg, #22577aff, #38a3a5ff, #57cc99ff, #80ed99ff, #c7f9ccff);
+$gradient-top-left: linear-gradient(225deg, #22577aff, #38a3a5ff, #57cc99ff, #80ed99ff, #c7f9ccff);
+$gradient-bottom-left: linear-gradient(315deg, #22577aff, #38a3a5ff, #57cc99ff, #80ed99ff, #c7f9ccff);
+$gradient-radial: radial-gradient(#22577aff, #38a3a5ff, #57cc99ff, #80ed99ff, #c7f9ccff);
+
+
+
+// $body-bg: ;
+// $primary:$lapis-lazuli;
+// $success:$light-green;
+// $darker:rich-black;

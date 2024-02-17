@@ -7,8 +7,10 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="{{ asset('dist/webfont/tabler-icons.css') }}">
     <link rel="stylesheet" href="{{ asset('js/chart.js/Chart.css') }}">
+    <link href="{{ asset('build/assets/app-XOlU1vkw.css') }}" rel="stylesheet">
+
     @livewireStyles
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
 
     <title>{{ $title ?? 'HYDRONET' }}</title>
 </head>
@@ -99,6 +101,7 @@
     </nav>
 
 
+    <script src="{{ asset('build/assets/app-Y_MuImAH.js') }}" ></script>    
 
     @livewireScripts
     <x-livewire-alert::scripts />

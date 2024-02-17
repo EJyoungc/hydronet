@@ -17,7 +17,7 @@
     {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
 
     <!-- Styles -->
-    <link href="{{ asset('build/assets/app-XOlU1vkw.css') }}" rel="stylesheet">
+    <link href="{{ asset('app-XOlU1vkw.css') }}" rel="stylesheet">
 
     
 </head>
@@ -81,6 +81,6 @@
             @yield('content')
         </main>
     </div>
-    <script src="{{ asset('build/assets/app-Y_MuImAH.js') }}" ></script>    
+    <script src="{{ asset('app-Y_MuImAH.js') }}" ></script>    
 </body>
 </html>

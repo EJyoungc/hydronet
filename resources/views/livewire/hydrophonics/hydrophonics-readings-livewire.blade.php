@@ -75,7 +75,7 @@
                         <form wire:submit.prevent='store' action="">
                             <div class="form-group">
                                 <label for="">Temperature <i class="ti ti-temperature-celsius"></i> </label>
-                                <input type="number" wire:model="temp" class="form-control">
+                                <input type="text" wire:model="temp" class="form-control">
                                 <x-error for="temp"></x-error>
                             </div>
                             <div class="form-group">
@@ -90,7 +90,7 @@
                             </div>
                             <div class="form-group ">
                                 <label for="">PH <i class="ti ti-thermometer"></i></label>
-                                <input type="number" wire:model="ph" class="form-control">
+                                <input type="text" wire:model="ph" class="form-control">
                                 <x-error for="ph"></x-error>
                             </div>
 

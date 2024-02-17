@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('readings', function (Blueprint $table) {
             $table->id();
-            $table->integer('temp');
+            $table->float('temp');
             $table->integer('uscm');
             $table->integer('ppm');
-            $table->integer('ph');
+            $table->float('ph');
             $table->integer('hydrophonic_id');
             $table->integer('user_id');
             $table->foreignId('growth_session_id')->constrained('growth_sessions')->onDelete('cascade')->onUpdate('cascade');

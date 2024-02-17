@@ -32,7 +32,8 @@
 
                                             <div class="card border-0">
 
-                                                <img height="300" id="image_{{ $item->id }}" class="card-img-top"
+                                                <img srcset="image-320w.jpg 320w, image-480w.jpg 480w, image-800w.jpg 800w"
+                                        sizes="(max-width: 320px) 280px, (max-width: 480px) 440px,800px" height="300" id="image_{{ $item->id }}" class="card-img-top"
                                                     src="{{ asset('assets/uploads/' . $item->image) }}" alt="">
 
                                                 <div class="card-body text-center">

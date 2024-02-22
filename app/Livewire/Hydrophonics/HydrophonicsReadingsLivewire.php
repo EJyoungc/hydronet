@@ -149,7 +149,8 @@ class HydrophonicsReadingsLivewire extends Component
             $this->temp = $this->reading->temp;
             $this->ph = $this->reading->ph;
             $this->ppm = $this->reading->ppm;
-            $this->uscm = $this->reading->uscm;             
+            $this->uscm = $this->reading->uscm; 
+            $this->notes = $this->reading->notes;            
             $this->modal = true;
 
         }

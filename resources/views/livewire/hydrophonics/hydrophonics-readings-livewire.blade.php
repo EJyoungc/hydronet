@@ -20,7 +20,7 @@
                             <div class="form-group">
                                 <button class="btn btn-outline-success" onclick="document.getElementById('photo').click()">upload
                                     <x-spinner for="image" /></button>
-                                <input type="file" multiple wire:model.blur="image" id="photo" class="d-none">
+                                <input type="file" multiple wire:model.live="image" id="photo" class="d-none">
                                 <x-error for="image"></x-error>
                             </div>
                         </div>

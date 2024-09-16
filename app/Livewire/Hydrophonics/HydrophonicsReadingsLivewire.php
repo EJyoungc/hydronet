@@ -89,7 +89,7 @@ class HydrophonicsReadingsLivewire extends Component
                 'uscm' => 'required|numeric ',
                 'ppm' => 'required|numeric',
                 'ph' => 'required|numeric|min:0|max:14',
-                'notes' => 'nullable|string|max:255',
+                'notes' => 'nullable|string|max:500',
                 
             ]);
 

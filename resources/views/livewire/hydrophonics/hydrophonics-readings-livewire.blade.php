@@ -188,7 +188,7 @@
                                         </tr>
                                     @empty
                                         <tr>
-                                            <td class="h4 text-center text-uppercase text-muted" colspan="7"
+                                            <td class="h4 text-center text-uppercase text-muted" colspan="9"
                                                 scope="row"> empty </td>
 
                                         </tr>

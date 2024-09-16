@@ -109,7 +109,7 @@ return [
 
     'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'hydronet@micromek.net'),
-        'name' => env('MAIL_FROM_NAME', 'INFO'),
+        'name' => env('MAIL_FROM_NAME', 'Hydronet System'),
     ],
 
     /*

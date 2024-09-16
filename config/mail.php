@@ -36,13 +36,13 @@ return [
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',
-            'url' => env('MAIL_URL','smtp.hostinger.com'),
+            'url' => env('MAIL_URL'),
             'host' => env('MAIL_HOST', 'smtp.hostinger.com'),
             'port' => env('MAIL_PORT', 465),
             'encryption' => env('MAIL_ENCRYPTION', 'ssl'),
             'username' => env('hydronet@micromek.net'),
             'password' => env('@UnmannedFuture100'),
-            'timeout' => null,
+            'timeout' => 60,
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
         ],
 

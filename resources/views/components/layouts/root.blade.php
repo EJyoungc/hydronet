@@ -87,7 +87,7 @@
         </div>
     </main>
 
-    <nav class="navbar sticky-bottom navbar-dark  bg-success">
+    {{-- <nav class="navbar sticky-bottom navbar-dark  bg-success">
         <div class="container-fluid">
             <div class="d-flex justify-content-between">
                 <a class="navbar-brand" href="#">Hydr<span class="ti ti-plant-2 text-dark"></span>net</a>
@@ -98,7 +98,7 @@
             
 
         </div>
-    </nav>
+    </nav> --}}
 
 
     <script src="{{ asset('app-Y_MuImAH.js') }}" ></script>    
